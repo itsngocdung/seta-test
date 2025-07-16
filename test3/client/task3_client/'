@@ -1,0 +1,12 @@
+export const CreatePost = () => {
+  return (
+    <div className="flex flex-col w-2xl bg-gray-600 gap-6 p-4">
+      <h2>Create new Post</h2>
+      <input type="text" value="aksd" placeholder="title" className="!bg-white !text-black !p-2" />
+      <textarea type="text" value="aksd" placeholder="body" className="!bg-white !text-black !p-2" />
+      <button>Create</button>
+    </div>
+  )
+}
+
+

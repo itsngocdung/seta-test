@@ -1,0 +1,15 @@
+node_modules/
+.npm/
+.package-lock.json
+.pnpm-debug.log*
+yarn.lock
+yarn-error.log
+.pnp.*
+.pnpm-store/
+
+dist/
+build/
+.next/
+out/
+coverage/
+
