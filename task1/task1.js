@@ -26,7 +26,9 @@ const findfrequent = () => {
   }
 
   let result = input.filter((item) => item.length === len);
-  return result;
+  return { result: result, len: len };
 };
 
-console.log(findfrequent());
+const { result, len } = findfrequent();
+
+console.log(result, len);

@@ -51,10 +51,6 @@ const postSlice = createSlice({
       builder.addCase(fetchPost.fulfilled, (state, action) => {
         state.data = action.payload
       })
-    //
-    //   builder.addCase(deletePost.fulfilled, (state, action) => {
-    //     state.data = state.data.filter(d => d.id !== action.payload)
-    // })
   }
 })
 
